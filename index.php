@@ -4,7 +4,7 @@ if (empty($argv[1])) {
     //https://music.yandex.ru/users/{owner}/playlists/{kinds}
     $uriRaw = 'https://music.yandex.ru/users/vadim.loxx/playlists/1073';
 } else {
-	$uriRaw = $argv[1];
+    $uriRaw = $argv[1];
 }
 
 $uriRaw = explode('/', $uriRaw);
